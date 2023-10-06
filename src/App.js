@@ -27,25 +27,52 @@
 
 
 //                     //for users file
-import React from 'react'
-import Users from './Users'
+// import React from 'react'
+// import Users from './Users'
 
-const App = () => {
-  function apple(){
-    alert("clicked")
+// const App = () => {
+//   function apple(){
+//     alert("clicked")
+//   }
+//   return (
+//     <div>
+//     <Users/>
+//     <button onClick={apple}>click me</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+//life cycle method
+
+import React from 'react'
+
+class App extends React.Component {
+
+  constructor () {
+    super();
+    console.warn("constructor")
   }
-  return (
+
+  componentDidAmount() {
+    console.warn("componentDidAmount")
+  }
+  render() {
+    console.warn("render")
+  }
+
+  return() {
     <div>
-    <Users/>
-    <button onClick={apple}>click me</button>
+      <h1>Life cycle Method</h1>
     </div>
-  )
+  }
 }
 
 export default App
-
-
-
 
 
 
