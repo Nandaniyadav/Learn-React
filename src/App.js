@@ -76,19 +76,40 @@
 
 
 
-//Class component
+// // Use Class component
+
+// import React from 'react'
+// import Classcmp from './ClassBased/Classcmp'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Classcmp></Classcmp>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+//Use of  Props
 
 import React from 'react'
-import Classcmp from './ClassBased/Classcmp'
+import Props from './Props/Props'
 
 const App = () => {
   return (
     <div>
-      <Classcmp />
+      <Props number='1' age = '20' />
+      <Props number='2'/>
+      <Props number='3'/>
     </div>
   )
 }
 
 export default App
+
 
 

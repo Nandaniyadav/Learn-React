@@ -4,7 +4,7 @@ class Classcmp extends Component {
   render() {
     return (
       <div>
-        <h1>Use Class Component </h1>
+        <h1> Use Class Component </h1>
       </div>
     );
   }
