@@ -47,32 +47,48 @@
 
 
 
-//life cycle method
+// //life cycle method
+
+// import React from 'react'
+
+// class App extends React.Component {
+
+//   constructor () {
+//     super();
+//     console.warn("constructor")
+//   }
+
+//   componentDidAmount() {
+//     console.warn("componentDidAmount")
+//   }
+//   render() {
+//     console.warn("render")
+//   }
+
+//   return() {
+//     <div>
+//       <h1>Life cycle Method</h1>
+//     </div>
+//   }
+// }
+
+// export default App
+
+
+
+//Class component
 
 import React from 'react'
+import Classcmp from './ClassBased/Classcmp'
 
-class App extends React.Component {
-
-  constructor () {
-    super();
-    console.warn("constructor")
-  }
-
-  componentDidAmount() {
-    console.warn("componentDidAmount")
-  }
-  render() {
-    console.warn("render")
-  }
-
-  return() {
+const App = () => {
+  return (
     <div>
-      <h1>Life cycle Method</h1>
+      <Classcmp />
     </div>
-  }
+  )
 }
 
 export default App
-
 
 
