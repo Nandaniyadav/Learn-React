@@ -25,7 +25,7 @@
 
 
 
-
+///////////////////////////////////////////////
 //                     //for users file
 // import React from 'react'
 // import Users from './Users'
@@ -46,7 +46,7 @@
 
 
 
-
+////////////////////////////////////
 // //life cycle method
 
 // import React from 'react'
@@ -75,7 +75,7 @@
 // export default App
 
 
-
+/////////////////////////
 // // Use Class component
 
 // import React from 'react'
@@ -93,23 +93,59 @@
 
 
 
+////////////////////////////////
+// //Use of  Props
 
-//Use of  Props
+// import React from 'react'
+// import Props from './Props/Props'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Props number='1' age = '20' />
+//       <Props number='2'/>
+//       <Props number='3'/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+///////////////////////////////
+
+// //For Counter
+// import React from 'react'
+// import './App.css'
+// import Counter from './counter/Counter'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//     <Counter/>
+//     </div>
+//   )
+// }
+
+// export default App
+/////////////////////////////
+
+//For Todo List
 
 import React from 'react'
-import Props from './Props/Props'
+import './App.css'
+import Todo from './Todo List/Todo'
 
 const App = () => {
   return (
-    <div>
-      <Props number='1' age = '20' />
-      <Props number='2'/>
-      <Props number='3'/>
+    <div className='App'>
+      <Todo/>
     </div>
   )
 }
 
 export default App
+
+
 
 
 
