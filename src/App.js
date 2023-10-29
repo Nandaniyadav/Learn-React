@@ -1,4 +1,4 @@
-//For reuseable button
+////////////For reuseable button component
 // import logo from './logo.svg';
 // import './App.css';
 // import Button from './ReUseableComponents/Button';
@@ -26,7 +26,7 @@
 
 
 ///////////////////////////////////////////////
-//                     //for users file
+//                     //for users file component
 // import React from 'react'
 // import Users from './Users'
 
@@ -47,7 +47,7 @@
 
 
 ////////////////////////////////////
-// //life cycle method
+// //life cycle method 
 
 // import React from 'react'
 
@@ -76,7 +76,7 @@
 
 
 /////////////////////////
-// // Use Class component
+// // Use Class component 
 
 // import React from 'react'
 // import Classcmp from './ClassBased/Classcmp'
@@ -94,7 +94,7 @@
 
 
 ////////////////////////////////
-// //Use of  Props
+// //Use of  Props component
 
 // import React from 'react'
 // import Props from './Props/Props'
@@ -113,7 +113,7 @@
 
 ///////////////////////////////
 
-// //For Counter
+// //For Counter component
 // import React from 'react'
 // import './App.css'
 // import Counter from './counter/Counter'
@@ -131,20 +131,37 @@
 
 
 
-////////// learn useState array
+// ////////// for UseStatearray component
 
-import React from 'react';
+// import React from 'react';
+// import './App.css'
+// import UseStatearray from './Use of useState/UseStatearray'
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <UseStatearray/>
+//     </div>
+//   )
+// }
+// export default App;
+////////////////////////////////
+
+
+
+//////// for Usestate component
+import React from 'react'
 import './App.css'
-import UseStatearray from './UseStateArray/UseStatearray'
+import LearnHook from './Use of useState/Usestate'
+
 const App = () => {
   return (
     <div className='App'>
-      <UseStatearray/>
+      <LearnHook/>
     </div>
   )
 }
-export default App;
 
+export default App
 
 
 
