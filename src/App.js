@@ -129,21 +129,41 @@
 // export default App
 /////////////////////////////
 
-//For Todo List
 
-import React from 'react'
+
+////////// learn useState array
+
+import React from 'react';
 import './App.css'
-import Todo from './Todo List/Todo'
-
+import UseStatearray from './UseStateArray/UseStatearray'
 const App = () => {
   return (
     <div className='App'>
-      <Todo/>
+      <UseStatearray/>
     </div>
   )
 }
+export default App;
 
-export default App
+
+
+
+
+
+// /////////For Todo List
+
+// import React from 'react'
+// import './App.css'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <Todo/>
+//     </div>
+//   )
+// }
+
+// export default App;
 
 
 
