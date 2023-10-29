@@ -4,17 +4,17 @@ const Todo = () => {
   const bioData = [
     {
       id: 0,
-      Name: "Nandani",
+      Name: "Ram",
       age: 20,
     },
     {
       id: 1,
-      Name: "abcd",
+      Name: "Shyam",
       age: 23,
     },
     {
       id: 2,
-      Name: "nan",
+      Name: "Mohan",
       age: 30,
     },
   ];
@@ -31,9 +31,11 @@ const Todo = () => {
       {myalldata.map((curElm) => {
         return (
           <h1 key={curElm.id}>
-            <li>Id is {curElm.id} </li>
-            <li>Name is: {curElm.Name} </li>
-            <li>Age is :{curElm.age}</li>
+            <ol>
+              <li>Id is {curElm.id} </li>
+              <li>Name is: {curElm.Name} </li>
+              <li>Age is :{curElm.age}</li>
+            </ol>
           </h1>
         );
       })}
