@@ -1,21 +1,14 @@
-// import React from 'react';
-
-// function LearnHook = () =>{
-//     return(
-//         <div>
-// <h1>UseState</h1>
-//         </div>
-//     )
-// }
-// export default LearnHook;
-
 import React, { useState } from "react";
-
 const LearnHook = () => {
   const [myValue, setMyValue] = useState("use of useState");
 
+  let newval = myValue;
   let changeName = () => {
-    setMyValue("Learn Hook");
+    if (myValue === "use of useState") {
+      setMyValue("Learn Hook");
+    } else {
+      setMyValue("use of useState");
+    }
   };
 
   return (
@@ -27,3 +20,4 @@ const LearnHook = () => {
 };
 
 export default LearnHook;
+
