@@ -148,20 +148,41 @@
 
 
 
-//////// for Usestate component
+// //////// for Usestate component
+// import React from 'react'
+// import './App.css'
+// import LearnHook from './Use of useState/Usestate'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <LearnHook/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+///////////////////////////////////////
+/////////For Spread component
+
 import React from 'react'
 import './App.css'
-import LearnHook from './Use of useState/Usestate'
+import Spread from './Use of Spread operator/Spread'
 
 const App = () => {
   return (
     <div className='App'>
-      <LearnHook/>
+      <Spread/>
     </div>
   )
 }
 
 export default App
+
 
 
 
