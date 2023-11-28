@@ -27,9 +27,6 @@
 // }
 // export default Todo
 
-
-
-
 ///////////////////////////////
 
 // import React, { useState } from 'react'
@@ -83,12 +80,39 @@
 // export default Todo
 //////////////////////////////
 
+import React, { useState } from "react";
 
+const Todo = () => {
+  const [inputData, setInputData] = useState("");
+  const [addinput, setAddInput] = useState([]);
 
+  //   function holdTask(e) {
+  //     let x = e.target.value;
+  //     console.log(e.target.value)
+  //   }
 
+  let addTask = () => {
+    let newData = setAddInput((addinput) => {
+      const updateList = setAddInput([...inputData, addinput]);
+      console.log([updateList]);
+    });
+  };
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Enter your task"
+        onChange={(e) => {
+          setInputData([e.target.value]);
+          console.log(e.target.value);
+        }}
+      ></input>
+      <br />
 
+      <button onClick={addTask}>ADD Task</button>
+      <button>EDIT Task</button>
+    </div>
+  );
+};
 
-
-
-
-
+export default Todo;

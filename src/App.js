@@ -23,8 +23,6 @@
 
 // export default App;
 
-
-
 ///////////////////////////////////////////////
 //                     //for users file component
 // import React from 'react'
@@ -44,10 +42,8 @@
 
 // export default App
 
-
-
 ////////////////////////////////////
-// //life cycle method 
+// //life cycle method
 
 // import React from 'react'
 
@@ -74,9 +70,8 @@
 
 // export default App
 
-
 /////////////////////////
-// // Use Class component 
+// // Use Class component
 
 // import React from 'react'
 // import Classcmp from './ClassBased/Classcmp'
@@ -90,8 +85,6 @@
 // }
 
 // export default App
-
-
 
 ////////////////////////////////
 // //Use of  Props component
@@ -129,8 +122,6 @@
 // export default App
 /////////////////////////////
 
-
-
 // ////////// for UseStatearray component
 
 // import React from 'react';
@@ -145,8 +136,6 @@
 // }
 // export default App;
 ////////////////////////////////
-
-
 
 // //////// for Usestate component
 // import React from 'react'
@@ -163,35 +152,44 @@
 
 // export default App
 
-
-
-
-///////////////////////////////////////
-/////////For Spread component
-
-import React from 'react'
-import './App.css'
-import Spread from './Use of Spread operator/Spread'
-
-const App = () => {
-  return (
-    <div className='App'>
-      <Spread/>
-    </div>
-  )
-}
-
-export default App
-
-
-
-
-
-
-// /////////For Todo List
+// ///////////////////////////////////////
+// /////////For Spread component
 
 // import React from 'react'
 // import './App.css'
+// import Spread from './Use of Spread operator/Spread'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <Spread/>
+//     </div>
+//   )
+// }
+
+// export default App
+// ////////////////////////////////////////
+// //for Progress Bar
+// import React from 'react'
+// import './App.css'
+// import ProgressBar from './Progress Bar/ProgressBar'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <ProgressBar/>
+//       <ProgressBar name="nandani"/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// // /////////For Todo List
+
+// import React from 'react'
+// import './App.css'
+// import Todo from './Todo List/Todo'
 
 // const App = () => {
 //   return (
@@ -201,9 +199,30 @@ export default App
 //   )
 // }
 
+// export default App
+
+/////////////////////////////////////////
+//For Chalange1 fileName
+
+// import React from "react";
+// import Chlange1 from "./By Thapa/Chalange1";
+// const App = () => {
+//   return (
+//     <div>
+//       <Chlange1 />
+//     </div>
+//   );
+// };
 // export default App;
-
-
-
-
-
+///////////////////////////////////
+////For Challange2 fileName
+import React from "react";
+import Challange2 from "./By Thapa/Challange2";
+const App =()=>{
+  return(
+    <div>
+      <Challange2/>
+    </div>
+  )
+}
+export  default App;
