@@ -13,9 +13,24 @@ code {
 }
 
 
-/* for challange2 */
-.head{
+/* Style for challange2 */
+.head {
   background-color: aqua;
   color: red;
   font-family: 'Josefin Slab', serif;
+}
+
+/* Style for challange3 */
+body {
+  background-color: rgb(169, 247, 247);
+}
+
+.head2 {
+  background-color: bisque;
+  height: 80px;
+  width: 500px;
+  line-height: 80px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
 }

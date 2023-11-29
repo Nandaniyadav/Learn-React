@@ -214,15 +214,30 @@
 //   );
 // };
 // export default App;
-///////////////////////////////////
+///////////////////////////////////////////////////////////////////
 ////For Challange2 fileName
+// import React from "react";
+// import Challange2 from "./By Thapa/Challange2";
+// const App =()=>{
+//   return(
+//     <div>
+//       <Challange2/>
+//     </div>
+//   )
+// }
+// export  default App;
+
+//////////////////////////////////////////////////////////////
+////For Challange3 fileName
+
 import React from "react";
-import Challange2 from "./By Thapa/Challange2";
+import './App.css'
+import Challange3 from "./By Thapa/Challange3"
 const App =()=>{
   return(
-    <div>
-      <Challange2/>
+    <div className="App">
+      <Challange3/>
     </div>
   )
 }
-export  default App;
+export default App;
