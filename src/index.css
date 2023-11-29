@@ -14,15 +14,16 @@ code {
 
 
 /* Style for challange2 */
-.head {
+/* .head {
   background-color: aqua;
   color: red;
   font-family: 'Josefin Slab', serif;
-}
+} */
 
 /* Style for challange3 */
-body {
+/* body {
   background-color: rgb(169, 247, 247);
+  margin-top: 300px;
 }
 
 .head2 {
@@ -32,5 +33,5 @@ body {
   line-height: 80px;
   text-align: center;
   margin: auto;
-  border-radius: 20px;
-}
+  border-radius: 20px; 
+}*/

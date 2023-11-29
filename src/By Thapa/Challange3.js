@@ -3,14 +3,14 @@ const Challange3 = () => {
   let curTime = new Date();
   curTime = curTime.getHours();
   let time = new Date().toLocaleString();
-  // let curTime = 13; //// for checking time
+//   let curTime = 1; //// for checking time
   let greeting = "";
   let cssStyle = {};
 
   if (curTime >= 1 && curTime < 12) {
     greeting = "Good Morning";
     cssStyle.color = "green";
-  } else if (curTime > 12 && curTime <= 17) {
+  } else if (curTime >= 12 && curTime <= 17) {
     greeting = "Good Afternoon";
     cssStyle.color = "red";
   } else {

@@ -230,13 +230,27 @@
 //////////////////////////////////////////////////////////////
 ////For Challange3 fileName
 
+// import React from "react";
+// import './App.css'
+// import Challange3 from "./By Thapa/Challange3"
+// const App =()=>{
+//   return(
+//     <div className="App">
+//       <Challange3/>
+//     </div>
+//   )
+// }
+// export default App;
+
+
+/////////////////////////////////////////////////
+/////For Calculater
 import React from "react";
-import './App.css'
-import Challange3 from "./By Thapa/Challange3"
+import Add from './By Thapa/Calculater/Calc'
 const App =()=>{
   return(
-    <div className="App">
-      <Challange3/>
+    <div>
+      <Add/>
     </div>
   )
 }
