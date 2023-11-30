@@ -96,7 +96,7 @@
 //   return (
 //     <div>
 //       <Props number='1' age = '20' />
-//       <Props number='2'/>
+//       <Props number='2' myName="Nandani"/>
 //       <Props number='3'/>
 //     </div>
 //   )
@@ -185,7 +185,8 @@
 
 // export default App
 
-// // /////////For Todo List
+// // ////////////////////////////////
+/////For Todo List
 
 // import React from 'react'
 // import './App.css'
@@ -245,13 +246,64 @@
 
 /////////////////////////////////////////////////
 /////For Calculater
+// import React from "react";
+// import Add from './By Thapa/Calculater/Calc'
+// const App =()=>{
+//   return(
+//     <div>
+//       <Add/>
+//     </div>
+//   )
+// }
+// export default App;
+
+///////////////////////////////////////////////////////////
+//For Props1
+
+// import React from "react";
+// import Props1 from "./By Thapa/Props1";
+
+// const App =()=>{
+//   return(
+//     <div>
+//       <Props1 imgsrc="https://picsum.photos/200/300" alt="Randam Images"/>
+//       <Props1 imgsrc="https://picsum.photos/seed/picsum/200/300"/>
+//       <Props1 imgsrc="https://picsum.photos/200/300/?blur=2" alt="Randam images"/>
+//     </div>
+//   )
+// }
+// export default App;
+
+///////////////////////////////////////////////////
+//For SlotGame
+
+// import React from "react";
+// import SlotGame from "./By Thapa/SlotGame";
+// import Slot from "./By Thapa/SlotGame";
+// const App =()=>{
+//     return(
+//         <>
+//         <h1>🧭Welcome to <span>Slot Machine</span> Game 🧭</h1>
+//       <SlotGame/>
+//       <Slot a='😂' b='😃' c='😍'/>
+//       {/* <Slot a='😎' b='😎' c='😎'/>
+//       <Slot a='🤩' b='😛' c='🤩'/> */}
+//         </>
+//     )
+// }
+// export default App;
+
+///////////////////////////////////////////////////////
+// For Usestate
+
 import React from "react";
-import Add from './By Thapa/Calculater/Calc'
+import './App.css'
+import UseState from "./By Thapa/UseState";
 const App =()=>{
-  return(
-    <div>
-      <Add/>
-    </div>
-  )
+    return(
+        <div className="App">
+        <UseState/>
+        </div>
+    )
 }
 export default App;
