@@ -36,9 +36,9 @@ code {
   border-radius: 20px; 
 }*/
 
-/* style for Event.jsx */
 
-.btn{
+/* style for Event.jsx */
+/* .btn{
   margin-left: 40%;
   height: 60px;
   width: 200px;
@@ -49,4 +49,20 @@ code {
   font-size: 20px;
   cursor: pointer;
 
+} */
+
+/* style by Form.js */
+.inptfrm{
+  height: 40px;
+  width: 500px;
+}
+.formbtn{
+  height: 45px;
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 150px;
+  background-color: purple;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
 }

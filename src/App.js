@@ -325,11 +325,22 @@
 //////////////////////////////////////////////
 //For Event.jsx
 
+// import React from "react";
+// import Event from "./By Thapa/Event";
+// const App = () =>{
+//     return(
+//         <Event/>
+//     )
+// }
+// export default App
+
+/////////////////////////////////////////////////////////////////
+// For Form.js
 import React from "react";
-import Event from "./By Thapa/Event";
+import Form from "./By Thapa/Form";
 const App = () =>{
     return(
-        <Event/>
+        <Form/>
     )
 }
 export default App
