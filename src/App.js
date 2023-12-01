@@ -309,15 +309,30 @@
 // export default App;
 
 ///////////////////////////////////////////
-//For Challange4
+//For Challange4.js
+// import React from "react";
+// import './App.css'
+// import Challange4 from "./By Thapa/Challange4";
+// const App =()=>{
+//     return(
+//         <div className="App">
+//         <Challange4/>
+//         </div>
+//     )
+// }
+// export default App;
+
+//////////////////////////////////////////////
+//For Event.jsx
+
 import React from "react";
-import './App.css'
-import Challange4 from "./By Thapa/Challange4";
-const App =()=>{
+import Event from "./By Thapa/Event";
+const App = () =>{
     return(
-        <div className="App">
-        <Challange4/>
-        </div>
+        <Event/>
     )
 }
-export default App;
+export default App
+
+
+
