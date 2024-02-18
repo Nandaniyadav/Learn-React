@@ -120,6 +120,7 @@
 // }
 
 // export default App
+
 /////////////////////////////
 
 // ////////// for UseStatearray component
@@ -243,7 +244,6 @@
 // }
 // export default App;
 
-
 /////////////////////////////////////////////////
 /////For Calculater
 // import React from "react";
@@ -336,14 +336,309 @@
 
 /////////////////////////////////////////////////////////////////
 // For Form.js
-import React from "react";
-import Form from "./By Thapa/Form";
-const App = () =>{
-    return(
-        <Form/>
-    )
+// import React from "react";
+// import Form from "./By Thapa/Form";
+// const App = () =>{
+//     return(
+//         <Form/>
+//     )
+// }
+// export default App
+/////////////////////////////////  for selflearn
+
+// import React from "react";
+// import Selflearn from "./components/Selflearn";
+
+//  const App =()=>{
+//     return(
+//         <div>
+//              <Selflearn name="Nandani Yadav"/>
+//             <Selflearn profile="Frontend developer"/>
+
+//         </div>
+//     )
+//  }
+//  export default App
+
+////////////////////////////
+// for Routing file
+
+// import React from "react";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Page1 from './components/Page1'
+// import Page2 from './components/Page2'
+// const App = () => {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path="/" element={<Page1/>} />
+//           <Route path="page2" element={<Page2/>}/>
+//         </Routes>
+//       </BrowserRouter>
+//     </div>
+//   );
+// };
+// export default App;
+
+//////////////Prop by Babber
+
+// import React from "react";
+// import "./App.css";
+// import Item from "./Babber/Props/Item";
+// import ItemDate from "./Babber/Props/ItemDate";
+// const App = () => {
+// const product = [
+//   {
+//     pName: "Macbook",
+//     pDate: " 1 January",
+//     pYear: 2001,
+//   },
+//   {
+//     pName: "Laptop",
+//     pDate: " 4 Augusr",
+//     pYear: 2010,
+//   },
+// ];
+//   return (
+//     <div className="App">
+//       <Item classNameitemStyle  name={product[0].pName}/>
+//       {/* helloji mai hu Item */}
+//       <ItemDate date={product[0].pDate} year={product[0].pYear} />
+//     </div>
+//   );
+// };
+
+// export default App;
+///////////////////////////////////////
+// ////////props
+// import React from 'react'
+// import Item1 from './Babber/Props2/Item1'
+
+// const App = () => {
+//   let somName=[{
+//     name:"Sarita",
+//     trade:"cs"
+//   },
+//  {
+//   name:"xyz",
+//   trade:"it"
+//  }]
+  
+//   return (
+//     <div>
+//       <Item1 name={somName[0].name} tr={somName[0].trade}/>
+//       <Item1 myName="Chhavi"/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+////////////////////////////
+
+
+// import React from 'react'
+// import './App.css'
+// import TodoList from './Babber/Props/TodoList'
+
+// const App = () => {
+//   return (
+//     <div className='App'>
+//       <TodoList/>
+//     </div>
+//   )
+// }
+
+// export default App
+///////////////////////////
+/////////prop driling
+// import React from 'react';
+// import ChildA from './Babber/propDriling/ChildA';
+
+// const App = () => {
+//   let name="Nandani Yadav"
+//   return (
+//     <div>
+//       <ChildA name={name} job="Frontend"/>
+//     </div>
+//   )
+// }
+
+// export default App;
+// ///////////////////////////////
+//// use of Context Api
+
+// import React, { createContext } from 'react'
+// import ChildA from './Babber/ContextApi/ChildA'
+
+// let data1 = createContext();
+// let data2 = createContext();
+// const App = () => {
+//   let name = "Nandani Yadav"
+//   let job = "Frontend Developer"
+//   return (
+//     <div>
+//       <data1.Provider value={name}>
+//         <data2.Provider value={job}>
+//         <ChildA/>
+//         </data2.Provider>
+//       </data1.Provider>
+      
+//     </div>
+//   )
+// }
+
+// export default App;
+// export {data1,data2};
+/////////////////////////////////////
+// //// use of context api
+//  import React, { createContext } from 'react'
+// import ChildA from './Babber/ContextApi/ChildA'
+ 
+// let data1= createContext();
+// let data2= createContext();
+//  const App = () => {
+//   let name ="Nandani Yadav";
+//   let job = "Frontend Developer";
+//    return (
+//      <div>
+//       <data1.Provider value={name}>
+//         <data2.Provider value={job}>
+//         <ChildA/>
+//         </data2.Provider>
+//       </data1.Provider>
+      
+//      </div>
+//    )
+//  }
+ 
+//  export default App;
+//  export {data1,data2};
+
+////////////////////////////
+// useContext hook
+// import React, { createContext } from 'react'
+// import ChildA from './Babber/useContext/ChildA'
+
+// let data1=createContext();
+// let data2=createContext();
+// const App = () => {
+//   let name = "Nandani Yadav";
+//   let job = "Frontend developer"
+//   return (
+//     <div>
+//       <data1.Provider value={name}>
+//         <data2.Provider value={job}>
+//         <ChildA/>
+//         </data2.Provider>
+//       </data1.Provider>
+      
+//     </div>
+//   )
+// }
+
+// export default App
+// export {data1,data2}
+
+////////////////////////////////
+/// use of useContext 
+
+// import React, { createContext } from 'react'
+// import ChildA from './Babber/useContext/ChildA'
+
+//  let data1= createContext();
+// const App = () => {
+//   let name = "Nandani Yadav";
+//   return (
+//     <div>
+//       <data1.Provider value={name}>
+//       <ChildA/>
+//       </data1.Provider>
+      
+//     </div>
+//   )
+// }
+
+// export default App;
+// export {data1}
+
+
+// //////////////
+// //Routing
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import Home from './Babber/Routing/Home'
+// import Contact from './Babber/Routing/Contact'
+// import About from './Babber/Routing/About'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <h2> Learn Routing</h2>
+//       <Routes>
+//         <Route path='/' element={<Home/>}>Home</Route>
+//         <Route path='/contact' element={<Contact/>}>Home</Route>
+//         <Route path='/about' element={<About/>}>Home</Route>
+//       </Routes>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+///////////////////////////////////
+// // Routing
+
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import Home from './Babber/Routing/Home'
+// import Contact from './Babber/Routing/Contact'
+// import About from './Babber/Routing/About'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Routes>
+//         <Route path='/' element={<Home/>}>Home</Route>
+//         <Route path='/contact' element={<Contact/>}/>
+//         <Route path='/about' element={<About/>}></Route>
+//       ontact</Routes>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+///////////////////////////////////
+// //todolist
+// import React from 'react'
+// import TodoList from './Babber/Props/TodoList'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <TodoList/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+/////////////////////////
+
+import React from 'react'
+import Efect from './Babber/Efect'
+
+const App = () => {
+  return (
+    <div>
+      <Efect/>
+    </div>
+  )
 }
+
 export default App
-
-
-
