@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(black, yellow, green, blue);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.registationform {
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 3px dashed red;
+    font-size: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputbox {
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+}
+
+form .container2 .inputbox input {
+    height: 45px;
+    width: 100%;
+}
+
+.submitdata {
+    width: 100%;
+    height: 1cm;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    background-color: blue;
+    border: none;
+    font: 20;
+}
