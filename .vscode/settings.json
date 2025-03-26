@@ -1,9 +1,0 @@
-{
-    "ipynb.pasteImagesAsAttachments.enabled": true,
-    "better-comments.multilineComments": true,
-    "css.format.enable": true,
-    "debug.javascript.autoAttachFilter": "disabled",
-    "debug.javascript.automaticallyTunnelRemoteServer": true,
-    "json.schemaDownload.enable": true,
-    "json.validate.enable": true
-}
